@@ -43,8 +43,9 @@ for(let buttonSingle of allbutton){
        navCount.innerText = updateNavCount;
 
     alert('clicked')
+    
 
-
+      buttonSingle.setAttribute('disabled', true)
 
      })
 
@@ -58,6 +59,9 @@ const rigtbtn = document.getElementById('clear-btn')
 rigtbtn.addEventListener('click', function(){
       
      righSection.innerHTML = '';
+
+
+
 
 
 })
